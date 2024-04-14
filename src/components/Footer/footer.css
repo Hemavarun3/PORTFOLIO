@@ -1,0 +1,14 @@
+.footer{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    margin :0.5rem;
+    size: 3rem;
+}
+h3{
+    margin: 1rem;
+}
