@@ -45,7 +45,7 @@ export default function Project() {
     <div className="container">
       <div className="row"> 
         {data.map((item) => (
-          <div className="col-lg-3 card" key={item.key}>
+          <div className="col-md-4 card" key={item.key}>
             <Pcard params={item} />
           </div>
         ))}

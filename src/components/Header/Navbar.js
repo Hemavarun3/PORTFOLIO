@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary header" fixed="top" >
+    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary header" >
       <Container>
         <Navbar.Brand href="#home" className='navbrand'><h3 style={{color :'rgba(178, 121, 216, 0.959) '}}>PORTFOLIO</h3></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
