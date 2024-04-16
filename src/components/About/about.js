@@ -5,7 +5,7 @@ import Education from './education';
 function About() {
   return (
     <div className="container">
-      <div className="row">
+      <div className="row1">
         <div className="col-md-6 b1">
           <h1 style={{ color: 'rgba(178, 121, 216, 0.959)' }}>Know More About Me</h1>
           <p style={{ textAlign: "justify" }}>
