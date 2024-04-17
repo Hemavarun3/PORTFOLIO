@@ -15,7 +15,6 @@ function Header() {
             <Nav.Link className="navlink" href="/">Home</Nav.Link>
             <Nav.Link href="/about" className="navlink">About</Nav.Link>
             <Nav.Link href="/projects" className="navlink">Projects</Nav.Link>
-            <Nav.Link href="/contact" className="navlink">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

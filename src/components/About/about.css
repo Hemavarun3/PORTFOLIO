@@ -5,6 +5,16 @@
     align-items: center;
     justify-content: center;
 }
+.row2 h2{
+    margin: 2rem;
+}
+.row1{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 .b1{
     font-size: 1rem;
@@ -15,7 +25,6 @@
     line-height: 1.6;
 }
 .b2{
-    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;

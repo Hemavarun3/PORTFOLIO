@@ -29,10 +29,8 @@ function About() {
         </div>
       </div>
       <div className="row2">
-        <div className="col-md-12">
-          <h2>My Education</h2>
+          <h2 style={{ color: 'rgba(178, 121, 216, 0.959)' }}>My Education</h2>
           <Education />
-        </div>
       </div>
     </div>
   );
