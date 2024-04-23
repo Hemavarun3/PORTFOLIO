@@ -7,38 +7,27 @@ const data = [
   {
     "name": "AMUL-WEBSITE",
     "key": "1",
-    "img": "../../assets/food_delivery.jpg",
-    "link": "https://weather-app-l53f.onrender.com/",
+    "img": "src/assets/food_delivery.jpg",
+    "github": "https://github.com/Hemavarun3/AMUL-WEBSITE",
+    "demo": "https://github.com/Hemavarun3/AMUL-WEBSITE",
     "desc": "This is an E-commerce application built using MERN stack.Tech Stack Used: ExpressJS, NodeJS, ReactJs, MongoDB, Javascript,Html,Css."
   },
   {
-    "name": "AMUL-WEBSITE",
+    "name": "WEATHER-APP",
     "key": "2",
-    "img": "../../assets/food_delivery.jpg",
-    "link": "https://weather-app-l53f.onrender.com/",
-    "desc": "This is an E-commerce application built using MERN stack.Tech Stack Used: ExpressJS, NodeJS, ReactJs, MongoDB, Javascript,Html,Css."
+    "img": "src/assets/weatherapp.png",
+    "github": "https://github.com/Hemavarun3/Weather-App",
+    "demo": "https://weather-app-l53f.onrender.com/",
+    "desc": "Designed a Weather App using HTML, CSS, and JavaScript, enabling real-time weather updates and location-based functionalities."
   },
   {
-    "name": "AMUL-WEBSITE",
+    "name": "PORTFOLIO",
     "key": "3",
-    "img": "../../assets/food_delivery.jpg",
-    "link": "https://weather-app-l53f.onrender.com/",
-    "desc": "This is an E-commerce application built using MERN stack.Tech Stack Used: ExpressJS, NodeJS, ReactJs, MongoDB, Javascript,Html,Css."
+    "img": "src/assets/portfolio.png",
+    "github": "https://github.com/Hemavarun3/PORTFOLIO",
+    "demo": "https://hemavarun-portfolio.netlify.app/",
+    "desc": "Designed a Portfolio website using ReactJs, HTML, CSS, and JavaScript. using various prebuilt features in reactJs like Timeline Components etc."
   },
-  {
-    "name": "AMUL-WEBSITE",
-    "key": "4",
-    "img": "../../assets/food_delivery.jpg",
-    "link": "https://weather-app-l53f.onrender.com/",
-    "desc": "This is an E-commerce application built using MERN stack.Tech Stack Used: ExpressJS, NodeJS, ReactJs, MongoDB, Javascript,Html,Css."
-  },
-  {
-    "name": "AMUL-WEBSITE",
-    "key": "5",
-    "img": "../../assets/food_delivery.jpg",
-    "link": "https://weather-app-l53f.onrender.com/",
-    "desc": "This is an E-commerce application built using MERN stack.Tech Stack Used: ExpressJS, NodeJS, ReactJs, MongoDB, Javascript,Html,Css."
-  }
 ];
 
 export default function Project() {
