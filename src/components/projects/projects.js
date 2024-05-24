@@ -7,7 +7,7 @@ import cimg3 from "./images/portfolio.png"
 
 const data = [
   {
-    "name": "AMUL-WEBSITE",
+    "name": "TASTY-TREATS",
     "key": "1",
     "img": "./images/food_delivery.jpg",
     "github": "https://github.com/Hemavarun3/TASTY_TREATS_FRONTEND",
