@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './project.css';
-import cimg1 from "./images/food_delivery.jpg"
+import cimg1 from "./images/food_delivery.png"
 import cimg2 from "./images/weatherapp.png"
 import cimg3 from "./images/portfolio.png"
 
@@ -10,8 +10,8 @@ const data = [
     "name": "AMUL-WEBSITE",
     "key": "1",
     "img": "./images/food_delivery.jpg",
-    "github": "https://github.com/Hemavarun3/AMUL-WEBSITE",
-    "demo": "https://github.com/Hemavarun3/AMUL-WEBSITE",
+    "github": "https://github.com/Hemavarun3/TASTY_TREATS_FRONTEND",
+    "demo": "https://tastytreatsecom.netlify.app",
     "desc": "This is an E-commerce application built using MERN stack.Tech Stack Used: ExpressJS, NodeJS, ReactJs, MongoDB, Javascript,Html,Css."
   },
   {
