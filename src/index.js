@@ -1,9 +1,9 @@
 import React from 'react';
-import { createRoot } from 'react-dom'; // Importing createRoot from react-dom
+import { createRoot } from 'react-dom/client';
 import App from './App';
+import './index.css'
 
 
-// Create your routes using createBrowserRouter
 
 
 // Use createRoot to render your application

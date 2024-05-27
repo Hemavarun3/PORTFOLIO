@@ -1,36 +1,34 @@
-import "./about.css";
 import about_img from "../../assets/about_img.png";
 import Education from './education';
 
 function About() {
   return (
-    <div className="container">
-      <div className="row1">
-        <div className="col-md-6 b1">
-          <h1 style={{ color: 'rgba(178, 121, 216, 0.959)' }}>Know More About Me</h1>
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="textblock">Hemavarun </span> from <span className="textblock">Vijayawada, India.</span>
-            <br />
-            I am currently Pursuing B.Tech ECE at LNM Institute of Information Technology.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-            <ul>
-              <li className="about-activity">Playing Games</li>
-              <li className="about-activity">Writing Tech Blogs</li>
-              <li className="about-activity">Travelling</li>
-            </ul>
-          </p>
+    <div className="">
+      <div className="flex flex-col lg:flex-row lg:px-24 md:px-24 px-16 mt-16 py-24 md:py-4 lg:py-4 space-y-32 md:space-y-16 lg:space-y-0">
+        <div className="flex flex-col lg:p-24 md:p-12 space-y-6">
+          <div className='flex flex-col space-y-4'>
+            <span className='text-maincolor text-3xl'>Know More About Me</span>
+          </div>
+          <p className="text-xl">Hi Everyone, I am Hemavarun from Vijayawada, India.
+            I am currently Pursuing B.Tech ECE at LNM Institute of Information Technology.</p>
+          <div className=''>
+            <p>Apart from coding, some other activities that I love to do!
+              <ul className="list-disc list-inside ml-4">
+                <li>Playing Volley Ball</li>
+                <li>Travelling</li>
+                <li>Watching movies</li>
+              </ul>
+            </p>
+
+          </div>
         </div>
-        <div className="col-md-6 b2">
-          <center>
-            <img src={about_img} alt="introImg" className="img-fluid" />
-          </center>
+        <div className="flex justify-center items-center p-2 md:p-16 lg:p-2">
+          <img src={about_img} alt='introImg' className="" />
         </div>
       </div>
-      <div className="row2">
-          <h2 style={{ color: 'rgba(178, 121, 216, 0.959)' }}>My Education</h2>
-          <Education />
+      <div className="flex flex-col space-y-8 items-center mt-16 lg:px-24 md:px-24 px-16">
+        <h2 className="text-maincolor text-3xl font-semibold">My Education</h2>
+        <Education />
       </div>
     </div>
   );

@@ -1,24 +1,33 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './Navbar.css';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { useState } from "react";
+
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary header" >
-      <Container>
-        <Navbar.Brand href="#home" className='navbrand'><h3 style={{color :'rgba(178, 121, 216, 0.959) '}}>PORTFOLIO</h3></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link className="navlink" href="/">Home</Nav.Link>
-            <Nav.Link href="/about" className="navlink">About</Nav.Link>
-            <Nav.Link href="/projects" className="navlink">Projects</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div className="flex flex-col justify-between top-0 w-full sticky z-50 bg-black">
+      <div className="flex justify-between py-8 lg:px-48  md:px-24 px-16 items-center">
+        <div className="text-3xl font-semibold text-maincolor">
+          <a href="/">PORTFOLIO</a>
+        </div>
+        <div className="hidden md:flex space-x-10 text-xl font-semibold">
+          <a href='/' className="hover:text-maincolor">HOME</a>
+          <a href='/about' className="hover:text-maincolor">ABOUT</a>
+          <a href="/projects" className="hover:text-maincolor">PROJECTS</a>
+        </div>
+        <div className="md:hidden lg:hidden">
+          <button onClick={toggleMenu}><i className={`fa-solid ${menuOpen ? "fa-times" : "fa-bars"} text-maincolor text-2xl cursor-pointer`}></i></button>
+        </div>
+      </div>
+      <div className={`flex flex-col md:hidden lg:hidden ${menuOpen ? "visible" : "hidden"} w-full px-16  space-y-6 font-semibold`}>
+        <a href='/' className="hover:text-maincolor">HOME</a>
+        <a href='/about' className="hover:text-maincolor">ABOUT</a>
+        <a href="/projects" className="hover:text-maincolor">PROJECTS</a>
+      </div>
+    </div>
   );
 }
 

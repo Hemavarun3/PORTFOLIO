@@ -38,7 +38,7 @@ function App() {
           className="vertical-timeline-element--work"
           date={element.Year}
           iconStyle={element.iconStyle}
-          contentStyle={{ background: 'black', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', borderRadius: '8px' }}
+          contentStyle={{ background: 'black', boxShadow: '0 0 0 0', borderRadius: '8px' }}
           contentArrowStyle={{ borderRight: '7px solid rgba(178,121,216,.959)', transition: 'background 0s' }}
         >
           <h3 className="vertical-timeline-element-title" style={{ color: 'rgba(178,121,216,.959)' }}>{element.college}</h3>
