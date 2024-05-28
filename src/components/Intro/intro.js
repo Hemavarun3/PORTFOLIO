@@ -2,7 +2,7 @@ import introImg from '../../assets/introImg.svg';
 import { ReactTyped } from 'react-typed';
 
 const MyComponent = () => {
-    window.open("https://drive.google.com/file/d/1wFt-VAO4bus6Es0g_LyZDZbZywdbSpOh/view", "_self");
+    window.open("https://drive.google.com/file/d/1JnSHT5tvgB2PX6ROyLWyfZCt8URIR7wc/view?usp=sharing", "_self");
 };
 
 function intro() {

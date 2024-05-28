@@ -41,10 +41,10 @@ function App() {
           contentStyle={{ background: 'black', boxShadow: '0 0 0 0', borderRadius: '8px' }}
           contentArrowStyle={{ borderRight: '7px solid rgba(178,121,216,.959)', transition: 'background 0s' }}
         >
-          <h3 className="vertical-timeline-element-title" style={{ color: 'rgba(178,121,216,.959)' }}>{element.college}</h3>
-          <h3 className="vertical-timeline-element-subtitle">{element.title}</h3>
-          <h4 className="vertical-timeline-element-subtitle">{element.Grade}</h4>
-          <p>{element.description}</p>
+          <h3 className="vertical-timeline-element-title font-semibold" style={{ color: 'rgba(178,121,216,.959)' }}>{element.college}</h3>
+          <h3 className="vertical-timeline-element-subtitle font-semibold">{element.title}</h3>
+          <h4 className="vertical-timeline-element-subtitle font-semibold">{element.Grade}</h4>
+          <p className='font-semibold'>{element.description}</p>
         </VerticalTimelineElement>
       ))}
     </VerticalTimeline>
