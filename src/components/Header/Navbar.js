@@ -25,8 +25,7 @@ function Header() {
       <div className={`flex flex-col md:hidden lg:hidden ${menuOpen ? "visible" : "hidden"} w-full px-16  space-y-6 font-semibold`}>
         <a href='/' className="hover:text-maincolor">HOME</a>
         <a href='/about' className="hover:text-maincolor">ABOUT</a>
-        <a href="/projects" className="hover:text-maincolor">PROJECTS</a>
-        <a href="/contact" className="hover:text-maincolor">CONTACT</a>
+        <a href="/portfolio" className="hover:text-maincolor">PORTFOLIO</a>
       </div>
     </div>
   );

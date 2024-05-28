@@ -25,7 +25,7 @@ const data = [
   },
 ];
 
-export default function Project() {
+export default function Portfolio() {
   return (
     <div className="md:px-16 lg:px-16 px-8 py-8 flex flex-col items-center space-y-16">
       <div className="flex flex-col items-center space-y-8">
